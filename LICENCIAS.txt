@@ -1,0 +1,30 @@
+PanchoVoz — paquete de voz de "Pancho y Pancha" (mod de Minecraft de Gerardeex)
+=============================================================================
+
+Este paquete es un programa aparte del mod. El mod lo abre en tu PC y le pide frases por 127.0.0.1 (nada sale
+de tu PC). Se cierra solo cuando cierras Minecraft.
+
+This package is a separate program from the mod. The mod starts it on your PC and asks it for sentences over
+127.0.0.1 (nothing leaves your PC). It closes by itself when you close Minecraft.
+
+Licencia del paquete / Package license
+--------------------------------------
+PanchoVoz (servidor_voz.py y el paquete armado) se distribuye bajo la GNU GPL versión 3 o posterior, porque usa
+phonemizer y eSpeak NG (GPL-3.0+). El código fuente de servidor_voz.py va en la carpeta "fuente" de este paquete.
+El mod "Pancho y Pancha" NO es parte de este paquete y tiene su propia licencia (todos los derechos reservados).
+
+PanchoVoz (servidor_voz.py and the built package) is distributed under the GNU GPL version 3 or later, because it
+uses phonemizer and eSpeak NG (GPL-3.0+). The source code of servidor_voz.py is in the "fuente" folder. The
+"Pancho y Pancha" mod is NOT part of this package and has its own license (all rights reserved).
+Texto de la GPL / GPL text: https://www.gnu.org/licenses/gpl-3.0.txt
+
+Lo que lleva adentro / What it includes
+---------------------------------------
+- Kokoro-82M (modelo de voz y voces), hexgrad — Apache License 2.0 — https://huggingface.co/hexgrad/Kokoro-82M
+- kokoro-onnx 0.6.1, thewh1teagle — MIT — https://github.com/thewh1teagle/kokoro-onnx
+- ONNX Runtime 1.32.0, Microsoft — MIT — https://github.com/microsoft/onnxruntime
+- phonemizer 3.6.0 — GPL-3.0-or-later — https://github.com/bootphon/phonemizer
+- eSpeak NG (vía espeakng-loader 0.2.4) — GPL-3.0-or-later — https://github.com/espeak-ng/espeak-ng
+- NumPy 1.26.4 — BSD-3-Clause — https://numpy.org
+- Python 3.12 — PSF License — https://www.python.org
+- PyInstaller (cargador) — GPL-2.0 con excepción para programas armados — https://pyinstaller.org
